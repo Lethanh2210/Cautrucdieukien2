@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 600px;
+            text-align: center;
+        }
+        td {
+            width: 150px;
+        }
+        input {
+            width: 98%;
+            height: 80px;
+            font-size: 25px;
+        }
+
+        button {
+            width: 140px;
+            height: 140px;
+            -webkit-text-stroke-width: thick;
+            font-size: 70px;
+
+        }
+    </style>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4"  >
+            <input size="85" type="text" id="input">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+<!--        <td><button onclick="(A)"><h1>A</h1></button></td>-->
+        <td></td>
+        <td><button onclick="clearTex()">CA</button></td>
+    </tr>
+    <tr>
+        <td><button  onclick="touch(1)">1</button></td>
+        <td><button  onclick="touch(2)">2</button></td>
+        <td><button  onclick="touch(3)">3</button></td>
+        <td><button  onclick="touch('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button  onclick="touch(4)">4</button></td>
+        <td><button  onclick="touch(5)">5</button></td>
+        <td><button  onclick="touch(6)">6</button></td>
+        <td><button  onclick="touch('*')">X</button></td>
+    </tr>
+    <tr>
+        <td><button  onclick="touch(7)">7</button></td>
+        <td><button  onclick="touch(8)">8</button></td>
+        <td><button  onclick="touch(9)">9</button></td>
+        <td><button  onclick="touch('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button  onclick="touch(0)">0</button></td>
+        <td><button  onclick="touch('.')">.</button></td>
+        <td><button  onclick="calculator()">=</button></td>
+        <td><button  onclick="touch('+')">+</button></td>
+    </tr>
+</table>
+</body>
+<script src="Caculator2.js"></script>
+</html>
